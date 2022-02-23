@@ -1,7 +1,7 @@
 {
   "name": "cs361_product_search",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express servcie that takes both an item and store name and returns a search result for this product in the given market place.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
+  },
+  "engines":{
+    "node" : "16.x"
   }
 }
