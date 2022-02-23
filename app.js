@@ -22,7 +22,11 @@ app.get('/', (req, res) => {
 
     }
     if(source in sources){
-        res.send(sources[source])
+        res.send(
+            {'source': source,
+             'item': item,
+             'link': sources[source]}
+             )
     }
     else{
         res.send('The store you have provided cannot be searched. Please try again with a differnt store.')
