@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/langet0695/cs361_product_search#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.3",
     "nodemon": "^2.0.15"
   },
-  "engines":{
-    "node" : "16.x"
+  "engines": {
+    "node": "16.x"
   }
 }
