@@ -1,4 +1,4 @@
-# cs361_product_search
+# Kitchen Product Search
 
 Description: This is a service that enables users to programatically search for products in various online marketplaces. This includes searches over Amazon, Kroger, Walmart, Target and more!
 
